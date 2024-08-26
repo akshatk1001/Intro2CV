@@ -1,8 +1,10 @@
 import cv2
+import numpy as np
 import os
 import matplotlib.pyplot as plt
 
 image = cv2.imread("/Users/aneeshkhandelwal/Downloads/VSCode Projects/Intro2CV/Tomatoes.png")
+imageRGB = cv2.imread("/Users/aneeshkhandelwal/Downloads/VSCode Projects/Intro2CV/RGB.png")
 
 '''Showing image using OpenCV'''
 # cv2.imshow("Image", image)
@@ -18,3 +20,5 @@ image = cv2.imread("/Users/aneeshkhandelwal/Downloads/VSCode Projects/Intro2CV/T
 # cv2.imwrite("convertTojpg.jpg", image)
 # print(os.listdir("/Users/aneeshkhandelwal/Downloads/VSCode Projects/Intro2CV/"))
 # os.remove("/Users/aneeshkhandelwal/Downloads/VSCode Projects/Intro2CV/convertTojpg.jpg")
+
+
