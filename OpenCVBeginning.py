@@ -50,7 +50,7 @@ imageMedianBlur = cv2.imread("/Users/aneeshkhandelwal/Downloads/VSCode Projects/
 # cv2.imshow("Median Blur 7", median_blur)
 
 # for(diameter, sigmaColor, sigmaSpace) in parameters:
-#     bilateral_blur = cv2.bilateralFilter(imageRiana, diameter, sigmaColor, sigmaSpace) # Reduce noise while still maintaining edges
+#     bilateral_blur = cv2.bilateralFilter(imageRiana, diameter, sigmaColor, sigmaSpace) # Reduce noise while still maintaining edges. Best but lots of time.
 #     cv2.imshow("BilateralBlur d:{}, sC:{}, sWS:{}".format(diameter, sigmaColor, sigmaSpace), bilateral_blur)
 
 # cv2.waitKey(0)
