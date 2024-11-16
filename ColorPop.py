@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("/Users/aneeshkhandelwal/Downloads/VSCode Projects/Intro2CV/RianaHands.jpeg")
+image = cv2.imread("/Users/akshatk/Coding/PersonalCoding/Intro2CV/RianaHands.jpeg")
 image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
